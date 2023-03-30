@@ -62,7 +62,7 @@ Process Mining Loader is a webMethods.io integration accelerator that allows use
 
 ## Process Mining Jira Loader
 
-Process Mining Jira Loader is a webMethods.io integration accelerator that allows uploading the jira issues and changes data into ARIS Process Mining. It fetches the issue and issue history details from Jira and transform them into array then invokes Process Mining workflow[Link to Process Mining workflow] to upload the data into ARIS.
+Process Mining Jira Loader is a webMethods.io integration accelerator that allows uploading the jira issues and changes data into ARIS Process Mining. It fetches the issue and issue history details from Jira and transform them into array then invokes Process Mining workflow to upload the data into ARIS.
 
 ### Pre-requisites
 * webMethods.io Integration tenant
