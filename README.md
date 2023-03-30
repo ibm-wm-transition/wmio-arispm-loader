@@ -14,7 +14,7 @@ Process Mining Loader is a webMethods.io integration accelerator that allows use
 1. Download the latest release of workflow and flow services from Releases section.
 2. Login to Software AG Cloud webMethods.io tenant.
 3. Go to Projects and select/create project and click import. 
-4. Choose **Process Mining.zip** and import it.
+4. Choose **Process_Mining.zip** and import it.
 
 ## 2. Add New Account "ProcessMining" for ARIS Process Mining connector. Following information is required
 1. ARIS Cloud URL.
@@ -80,7 +80,7 @@ Process Mining Jira Loader is a webMethods.io integration accelerator that allow
 ### 1. Install workflow and flow services 
 1. Download the latest release of workflow and flow services from Releases section.
 2. Login to Software AG cloud webmethods.io tenant .
-3. Go to Projects and select project and click import. ( Order of import - sendJiraIssueDetails.zip, Send Issue Details to ARIS.zip)
+3. Go to Projects and select project and click import. ( Order of import - sendJiraIssueDetails.zip, Send_Issue_Details_to_ARIS.zip)
 4. Choose workflow/flow service zip and import it.
 
 ### 2. Add New Account "AtlassianJira" for Atlassian Jira Connector. Following information is required
@@ -97,17 +97,17 @@ Process Mining Jira Loader is a webMethods.io integration accelerator that allow
 ### 4. Configure Project Parameters
 Go to Configurations > Workflow > Parameter and update project parameters
 
-    * **jql** - jql squery to filter the issue data 
-    * **expand** - include additional fields into results. This usecase **"changelog"** has to be passed as value. This will includes the jira issue history into results while fetching the data. 
-    * **tableNamespace** - Table Namespace.
-    * **issueTableName** - Table name for issues table. 
-    * **changesTableName** - Table name for changes table.
-    * **dataLoadKey_changes** - Unique data load key for changes table. 
-    * **dataLoadKey_issue** - Unique data load key for issues table. 
-    * **batchRecordSize** - Records size for batch upload.
-	* **loadSampleData** - To identify createTableWithSampleData service needs to be invoked or not. 
-	* **changesSample**  - Sample changes JSON data with all the fields. 
-	* **issueSample** -  Sample issues JSON data with all the fields.
+* **jql** - jql squery to filter the issue data 
+* **expand** - include additional fields into results. This usecase **"changelog"** has to be passed as value. This will includes the jira issue history into results while fetching the data. 
+* **tableNamespace** - Table Namespace.
+* **issueTableName** - Table name for issues table. 
+* **changesTableName** - Table name for changes table.
+* **dataLoadKey_changes** - Unique data load key for changes table. 
+* **dataLoadKey_issue** - Unique data load key for issues table. 
+* **batchRecordSize** - Records size for batch upload.
+* **loadSampleData** - To identify createTableWithSampleData service needs to be invoked or not. 
+* **changesSample**  - Sample changes JSON data with all the fields. 
+* **issueSample** -  Sample issues JSON data with all the fields.
 	
 
 ______________________
